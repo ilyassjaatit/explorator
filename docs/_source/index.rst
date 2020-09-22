@@ -13,6 +13,7 @@ Welcome to explorator's documentation!
    howto
    pycharm/configuration
    users
+   collectors
 
 
 
