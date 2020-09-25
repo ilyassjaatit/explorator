@@ -24,4 +24,4 @@ django-cors-headers==3.5.0 # https://github.com/adamchainz/django-cors-headers
 
 # Web scraping
 requests==2.24.0
-beautifulsoup==4-4.9.1
+beautifulsoup4==4.9.1
