@@ -46,7 +46,8 @@ class Collector(models.Model):
                         "headers": {
                             "save": true
                         }
-                    }
+                    },
+                    "seeds": ["www.python.org", "https://www.python.org/doc/"]
                 }
             ],
             "required": [

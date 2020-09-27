@@ -14,7 +14,8 @@ RECIPE = {
         "headers": {
             "save": True
         }
-    }
+    },
+    "seeds": ["https://www.python.org/"]
 }
 
 
@@ -26,10 +27,11 @@ class CollectorTypeFactory(DjangoModelFactory):
         model = CollectorType
 
 
-class CollectionFactory(DjangoModelFactory):
+class CollectorFactory(DjangoModelFactory):
     name = Faker('name')
     recipe = RECIPE
     frequency = 320
     collector_type = SubFactory(CollectorTypeFactory)
+
     class Meta:
         model = Collector

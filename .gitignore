@@ -279,3 +279,9 @@ explorator/media/
 
 ### PyCharm
 .idea
+
+### ignore migrations (provisional)
+explorator/collectors/migrations/
+explorator/tasks/migrations/
+!explorator/tasks/migrations/__init__.py
+!explorator/collectors/migrations/__init__.py
